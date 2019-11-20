@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Only use display:Flex with the parent container */
+.box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    border: 10px solid gold;
+    height: 100vh;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+/* Colours for each box */
+.box1 { background:#cf1a1a;}
+.box2 { background:#ff922c;}
+.box3 { background:#ff9c1a;}
+.box4 { background:#ffd000;}
+.box5 { background:#a6c713;}
+.box6 { background:#58c410;}
+.box7 { background:#16cbd1;}
+.box8 { background:#1945d4;}
+.box9 { background:#a519cf;}
+.box10 { background:#c71db0;}
+
+.box {
+    display: flex;
+    flex: 1;
+}.box4 {
+    flex: 2;
+}
+.box7 {
+    flex: 3;
+}
+/* .box {width: 33.333%;} */
+
+/* .box1{align-self: flex-end;}
+
+.box2{
+    padding-bottom: 200px;
+    align-self: baseline;
+}
+.box6{
+    padding-bottom: 0px;
+    align-self: center;
+    }
+
+.box9{
+    padding-bottom: 50px;
+    align-self: flex-end;
+    }
+
+.box10{align-self: stretch;}
+ */
+
+
+
+
